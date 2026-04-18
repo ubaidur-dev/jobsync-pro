@@ -19,7 +19,7 @@ Finding a job can be a stressful and slow process, so I built JobSync Pro to mak
 * **src/components:** Reusable parts like the Navbar, the Search bar, and the Job cards to keep the code clean.
 * **src/assets:** Where I keep the global styles and professional font settings.
 
-## How to Run
+### How to Run
 * Clone or **download this repository** to your computer.
 * Open your terminal and type **npm install** to get all the needed files.
 * Type **npm run dev** to start the project and see it **live in your browser**.
