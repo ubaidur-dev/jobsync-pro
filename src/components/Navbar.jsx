@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logoImg from '/public/logo.png';
 import { Bookmark, PlusCircle } from 'lucide-react';
 
 export default function Navbar() {
@@ -8,10 +9,13 @@ export default function Navbar() {
   return (
     <nav className="bg-white border-b border-slate-100 px-8 py-4 flex justify-between items-center sticky top-0 z-50 shadow-sm shadow-slate-50/50">
       <Link to="/" className="flex items-center gap-2 group">
-        {/* Placeholder for your Image (Logo/Heading/Slogan combo) */}
-        <div className="h-12 w-48 bg-slate-100 rounded-xl flex items-center justify-center border border-dashed border-slate-200">
-          <p className="text-slate-400 font-bold text-sm">Upload Logo Img</p>
-        </div>
+        <div className="h-12 w-48 flex items-center justify-start group">
+  <img 
+    src="/logo.png" 
+    alt="JobSync Pro Logo" 
+    className="h-full w-auto object-contain hover:scale-105 transition-transform duration-300"
+  />
+</div>
       </Link>
       
       <div className="flex gap-8 items-center font-bold text-sm text-slate-500">
